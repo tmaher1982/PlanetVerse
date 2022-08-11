@@ -1,0 +1,6 @@
+1000 NFT image uploaded to and pinned on IPFS network by pinata
+
+images folder CID : QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs
+
+accessible at : https://gateway.pinata.cloud/ipfs/QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs
+first single NFT accessible at : https://gateway.pinata.cloud/ipfs/QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/1.png
