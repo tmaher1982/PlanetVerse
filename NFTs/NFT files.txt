@@ -3,3 +3,14 @@ resolution : 2048px by 2048px
 
 can download from the following link:
 ...link place holder, waiting for upload...
+
+/////////////////////////////////////////////
+update v2
+
+due to pinata free tier service limitations, a new set of nfts with lower resolution generated.
+
+1000 pairs of NFT image-json generated
+resolution : 1024px by 1024px
+
+can download from the following link:
+...link place holder, waiting for upload...
