@@ -96,7 +96,7 @@
                                     <div class="swiper-wrapper align-items-center">
 
                                         <div class="swiper-slide">
-                                            <img src="assets/img/gallery/gallery-8.jpg" alt="">
+                                            <img src="" alt="" id="img-to-show">
                                         </div>
                                         
                                     </div>
@@ -125,7 +125,7 @@
                                         <h3>Image information</h3>
                                         <ul>
                                             <li><strong>Category</strong> <span></span></li>
-                                            <li><strong>Project URL</strong> <a href="#">www.planetverse.com</a></li>
+                                            <li><strong>Project URL</strong> <a id="pinata-url" href="#">www.planetverse.com</a ></li>
                                             <li><a href="#" class="btn-visit align-self-start">Visit Website</a></li>
                                         </ul>
                                     </div>
@@ -139,6 +139,16 @@
 
             </div>
         </section>
+        <script>
+            let pinataURL = "https://gateway.pinata.cloud/ipfs/QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/";
+            //Get the image ID value from the URL
+            const params = new Proxy(new URLSearchParams(window.location.search), {
+                get: (searchParams, prop) => searchParams.get(prop),
+            });
+            let value = params.ID;
+            document.getElementById("img-to-show").src = "./images/gallery/" + value + ".png";
+            document.getElementById("pinata-url").href = pinataURL + value + ".png";
+        </script>
 
     </main>
     <!-- End #main -->

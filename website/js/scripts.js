@@ -165,21 +165,3 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-function changeGallery() {
-    let imageURL = "https://gateway.pinata.cloud/ipfs/QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/";
-    let totalImgs = 100;
-    
-
-    for (let i = 1; i <= 16; i++) {
-        //console.log(i);
-        let randomImageIndex = Math.floor(Math.random() * totalImgs);
-        let imgURL = imageURL + randomImageIndex + ".png";
-        //document.getElementsByClassName("img-fluid-" + i).src = imgURL;
-        document.getElementById("img-fluid-" + i).src = imgURL;
-        document.getElementById("img-fluid-" + i + "a").href = imgURL;
-        //console.log(document.getElementsByClassName("img-fluid-" + i).src);
-    }
-    console.log(document.getElementsByClassName("img-fluid-1").src);
-
-}
-window.onload = changeGallery;
