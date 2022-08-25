@@ -794,6 +794,69 @@ h6 {
     padding: 0;
 }
 
+.gallery {
+    margin-top: 40px;
+}
+
+.gallery .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.gallery .gallery-item img {
+transition: 0.3s;
+}
+
+.gallery .gallery-links {
+position: absolute;
+inset: 0;
+opacity: 0;
+transition: all ease-in-out 0.3s;
+background: rgba(0, 0, 0, 0.6);
+z-index: 3;
+}
+
+.gallery .gallery-links .preview-link,
+.gallery .gallery-links .details-link {
+font-size: 20px;
+color: rgba(255, 255, 255, 0.5);
+transition: 0.3s;
+line-height: 1.2;
+margin: 30px 8px 0 8px;
+}
+
+.gallery .gallery-links .preview-link:hover,
+.gallery .gallery-links .details-link:hover {
+    color: #fff;
+}
+
+.gallery .gallery-links .details-link {
+font-size: 30px;
+line-height: 0;
+}
+
+.gallery .gallery-item:hover .gallery-links {
+opacity: 1;
+}
+
+.gallery .gallery-item:hover .preview-link,
+.gallery .gallery-item:hover .details-link {
+margin-top: 0;
+}
+
+.gallery .gallery-item:hover img {
+transform: scale(1.1);
+}
+
+.glightbox-clean .gslide-description {
+    background: #222425;
+}
+
+.glightbox-clean .gslide-title {
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+}
 
 /*--------------------------------------------------------------
 # Contact Section
@@ -1007,3 +1070,8 @@ h6 {
         background: #fff;
         color: var(--color-primary);
     }
+
+.img-fluid-1, .img-fluid-2, .img-fluid-3, .img-fluid-4, .img-fluid-5, .img-fluid-6, .img-fluid-7, .img-fluid-8, .img-fluid-9, .img-fluid-10, .img-fluid-11, .img-fluid-12, .img-fluid-13, .img-fluid-14, .img-fluid-15, .img-fluid-16 {
+    max-width: 100%;
+    height: auto;
+}
