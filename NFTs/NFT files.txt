@@ -2,7 +2,7 @@
 resolution : 2048px by 2048px
 
 can download from the following link:
-...link place holder, waiting for upload...
+https://drive.google.com/file/d/1A04x3ZGPfzKAGaBDHv0kJ8wDWkrWxtzF/
 
 /////////////////////////////////////////////
 update v2
@@ -13,4 +13,4 @@ due to pinata free tier service limitations, a new set of nfts with lower resolu
 resolution : 1024px by 1024px
 
 can download from the following link:
-...link place holder, waiting for upload...
+https://drive.google.com/file/d/1i4BPA_wR3biTpcrKTD-ix7kGsOv_n92G/

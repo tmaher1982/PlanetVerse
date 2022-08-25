@@ -7,7 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Planetverse";
 const description = "One planet to rule them all!";
-const baseUri = "ipfs://NewUriToReplace";
+const baseUri = "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs";
 
 const solanaMetadata = {
   symbol: "YC",
