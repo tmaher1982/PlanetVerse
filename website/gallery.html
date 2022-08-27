@@ -54,6 +54,7 @@
             <!-- .navbar -->
 
             <div class="header-social-links">
+                <a href="#" class="bi bi-wallet metamask" onclick="connect();"> Metamask</a>
                 <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
                 <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
                 <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
@@ -63,7 +64,7 @@
             <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
         </div>
-        
+
     </header>
     <!-- End Header -->
 
@@ -114,7 +115,7 @@
                             <img src="" class="img-fluid-2" alt="" id="img-fluid-2">
                             <div class="gallery-links d-flex align-items-center justify-content-center">
                                 <a href="" title="Gallery 2" class="glightbox preview-link" id="img-fluid-2a"><i class="bi bi-arrows-angle-expand"></i></a>
-                                <a href="gallery-single.html" class="details-link"id="details-link-2"><i class="bi bi-link-45deg"></i></a>
+                                <a href="gallery-single.html" class="details-link" id="details-link-2"><i class="bi bi-link-45deg"></i></a>
                             </div>
                         </div>
                     </div><!-- End Gallery Item -->
@@ -254,13 +255,13 @@
                             let imgURL = imageURL + randomImageIndex + ".png";
                             document.getElementById("img-fluid-" + i).src = imgURL;
                             document.getElementById("img-fluid-" + i + "a").href = imgURL;
+                            document.getElementById("img-fluid-" + i + "a").title = randomImageIndex;
                             //Pass parameters to gallery-single page.
                             document.getElementById("details-link-" + i).href = "gallery-single.html?ID=" + randomImageIndex;
                         }
                     </script>
-</main>
+    </main>
     <!-- End #main -->
-
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
         <div class="container">
@@ -283,6 +284,9 @@
 
     <!-- Template Main JS File -->
     <script src="js/scripts.js"></script>
+
+    <!-- Metamask libraries -->
+    <script type="module" src="./js/smart-contracts.js"></script>
 
 </body>
 
