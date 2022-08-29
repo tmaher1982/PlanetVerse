@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #35",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/35.png",
+  "dna": "051f3fd5efa3e30a870df755c4cfcd8b19775363",
+  "edition": 35,
+  "date": 1658770817023,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "triangulum"
+    },
+    {
+      "trait_type": "moon",
+      "value": "ananke_callisto"
+    },
+    {
+      "trait_type": "planet",
+      "value": "finlay"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "none"
+    },
+    {
+      "trait_type": "season",
+      "value": "spring"
+    }
+  ]
+}

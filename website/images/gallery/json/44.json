@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #44",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/44.png",
+  "dna": "64fa6e6aa2c4b7dd3c2037a3c513ed3066878711",
+  "edition": 44,
+  "date": 1658770820771,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "milky way"
+    },
+    {
+      "trait_type": "moon",
+      "value": "none"
+    },
+    {
+      "trait_type": "planet",
+      "value": "lete"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "nitrogene"
+    },
+    {
+      "trait_type": "season",
+      "value": "spring"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #42",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/42.png",
+  "dna": "887100986a852ddb20ba3031178b8666656c53f2",
+  "edition": 42,
+  "date": 1658770819927,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "andromeda"
+    },
+    {
+      "trait_type": "moon",
+      "value": "none"
+    },
+    {
+      "trait_type": "planet",
+      "value": "galileo"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "sulfur"
+    },
+    {
+      "trait_type": "season",
+      "value": "winter"
+    }
+  ]
+}

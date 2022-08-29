@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #31",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/31.png",
+  "dna": "e37c7b61d3b60e82d833eb81f6e572e5e811b165",
+  "edition": 31,
+  "date": 1658770815349,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "milky way"
+    },
+    {
+      "trait_type": "moon",
+      "value": "locaste"
+    },
+    {
+      "trait_type": "planet",
+      "value": "spe"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "methane"
+    },
+    {
+      "trait_type": "season",
+      "value": "spring"
+    }
+  ]
+}

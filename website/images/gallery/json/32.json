@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #32",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/32.png",
+  "dna": "2947eca662d84e33c9b3645562195e1073f30020",
+  "edition": 32,
+  "date": 1658770815785,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "triangulum"
+    },
+    {
+      "trait_type": "moon",
+      "value": "none"
+    },
+    {
+      "trait_type": "planet",
+      "value": "spe"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "methane"
+    },
+    {
+      "trait_type": "season",
+      "value": "spring"
+    }
+  ]
+}

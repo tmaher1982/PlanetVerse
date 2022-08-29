@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #29",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/29.png",
+  "dna": "c8dbec93b7bdc714766e47c93c55d2b34b13476c",
+  "edition": 29,
+  "date": 1658770814450,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "milky way"
+    },
+    {
+      "trait_type": "moon",
+      "value": "none"
+    },
+    {
+      "trait_type": "planet",
+      "value": "harriot"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "methane"
+    },
+    {
+      "trait_type": "season",
+      "value": "spring"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #43",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/43.png",
+  "dna": "a02217e4a80f64e60fbefe3aa44ff61f5726a514",
+  "edition": 43,
+  "date": 1658770820316,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "andromeda"
+    },
+    {
+      "trait_type": "moon",
+      "value": "none"
+    },
+    {
+      "trait_type": "planet",
+      "value": "tedmor"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "none"
+    },
+    {
+      "trait_type": "season",
+      "value": "winter"
+    }
+  ]
+}

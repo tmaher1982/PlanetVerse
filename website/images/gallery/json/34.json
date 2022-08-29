@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #34",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/34.png",
+  "dna": "448daa7046600a19f5899d90e200ae4e058040b5",
+  "edition": 34,
+  "date": 1658770816606,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "andromeda"
+    },
+    {
+      "trait_type": "moon",
+      "value": "taygete_kale"
+    },
+    {
+      "trait_type": "planet",
+      "value": "surt"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "none"
+    },
+    {
+      "trait_type": "season",
+      "value": "winter"
+    }
+  ]
+}

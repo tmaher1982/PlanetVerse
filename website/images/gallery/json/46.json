@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #46",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/46.png",
+  "dna": "0b9d21f3c623b594c35f3de92d5cabc46ca2fd5b",
+  "edition": 46,
+  "date": 1658770821691,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "andromeda"
+    },
+    {
+      "trait_type": "moon",
+      "value": "carpo_io"
+    },
+    {
+      "trait_type": "planet",
+      "value": "harriot"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "oxygene"
+    },
+    {
+      "trait_type": "season",
+      "value": "spring"
+    }
+  ]
+}

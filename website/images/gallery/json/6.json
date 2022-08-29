@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #6",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/6.png",
+  "dna": "40c3b3047fb39080e17ce891f9c7fea0c5f8870c",
+  "edition": 6,
+  "date": 1658770804679,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "triangulum"
+    },
+    {
+      "trait_type": "moon",
+      "value": "none"
+    },
+    {
+      "trait_type": "planet",
+      "value": "arion"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "nitrogene"
+    },
+    {
+      "trait_type": "season",
+      "value": "winter"
+    }
+  ]
+}

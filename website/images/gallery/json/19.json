@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #19",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/19.png",
+  "dna": "eeab882d41721e9a83c9f70c90f77a9fd74ba236",
+  "edition": 19,
+  "date": 1658770810198,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "andromeda"
+    },
+    {
+      "trait_type": "moon",
+      "value": "none"
+    },
+    {
+      "trait_type": "planet",
+      "value": "brahe"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "sulfur"
+    },
+    {
+      "trait_type": "season",
+      "value": "spring"
+    }
+  ]
+}

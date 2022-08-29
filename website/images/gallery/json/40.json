@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #40",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/40.png",
+  "dna": "1542c2f904332fb4cc6b6acfec5c9963714233b8",
+  "edition": 40,
+  "date": 1658770819094,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "triangulum"
+    },
+    {
+      "trait_type": "moon",
+      "value": "dia_sinope"
+    },
+    {
+      "trait_type": "planet",
+      "value": "finlay"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "none"
+    },
+    {
+      "trait_type": "season",
+      "value": "winter"
+    }
+  ]
+}

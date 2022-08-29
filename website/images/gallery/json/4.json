@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #4",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/4.png",
+  "dna": "5e98b890428ac2aa36c2f444b8701314a4338ea9",
+  "edition": 4,
+  "date": 1658770803813,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "milky way"
+    },
+    {
+      "trait_type": "moon",
+      "value": "ananke_callisto"
+    },
+    {
+      "trait_type": "planet",
+      "value": "tryzub"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "none"
+    },
+    {
+      "trait_type": "season",
+      "value": "spring"
+    }
+  ]
+}

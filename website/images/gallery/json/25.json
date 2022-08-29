@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #25",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/25.png",
+  "dna": "a5f6e255e99709b4ad6b27e979e6e63b0922cc74",
+  "edition": 25,
+  "date": 1658770812738,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "milky way"
+    },
+    {
+      "trait_type": "moon",
+      "value": "dia_sinope"
+    },
+    {
+      "trait_type": "planet",
+      "value": "tedmor"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "oxygene"
+    },
+    {
+      "trait_type": "season",
+      "value": "spring"
+    }
+  ]
+}

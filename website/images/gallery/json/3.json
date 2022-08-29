@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #3",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/3.png",
+  "dna": "c532ea6b190c12b377a9176526a1936984a7a475",
+  "edition": 3,
+  "date": 1658770803368,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "milky way"
+    },
+    {
+      "trait_type": "moon",
+      "value": "none"
+    },
+    {
+      "trait_type": "planet",
+      "value": "tedmor"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "methane"
+    },
+    {
+      "trait_type": "season",
+      "value": "winter"
+    }
+  ]
+}

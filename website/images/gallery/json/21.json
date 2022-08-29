@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #21",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/21.png",
+  "dna": "82fb356203609910e44a1cffcdc6fd1df6e11332",
+  "edition": 21,
+  "date": 1658770811037,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "andromeda"
+    },
+    {
+      "trait_type": "moon",
+      "value": "locaste"
+    },
+    {
+      "trait_type": "planet",
+      "value": "halla"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "oxygene"
+    },
+    {
+      "trait_type": "season",
+      "value": "spring"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #2",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/2.png",
+  "dna": "a01728bb707ca0671de8e71cfee7112a0ae041bf",
+  "edition": 2,
+  "date": 1658770802947,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "milky way"
+    },
+    {
+      "trait_type": "moon",
+      "value": "taygete_kale"
+    },
+    {
+      "trait_type": "planet",
+      "value": "orbitar"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "methane"
+    },
+    {
+      "trait_type": "season",
+      "value": "spring"
+    }
+  ]
+}

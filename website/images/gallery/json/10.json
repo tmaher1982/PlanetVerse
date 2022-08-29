@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #10",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/10.png",
+  "dna": "9a8c2646fbe9b2dd93862ae9f9f15bfd3037d96b",
+  "edition": 10,
+  "date": 1658770806339,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "triangulum"
+    },
+    {
+      "trait_type": "moon",
+      "value": "locaste"
+    },
+    {
+      "trait_type": "planet",
+      "value": "orbitar"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "nitrogene"
+    },
+    {
+      "trait_type": "season",
+      "value": "spring"
+    }
+  ]
+}

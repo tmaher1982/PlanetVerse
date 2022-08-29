@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #50",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/50.png",
+  "dna": "83181dfdd08043cc6fbfae850139995f169b29cc",
+  "edition": 50,
+  "date": 1658770823390,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "milky way"
+    },
+    {
+      "trait_type": "moon",
+      "value": "locaste"
+    },
+    {
+      "trait_type": "planet",
+      "value": "vytis"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "methane"
+    },
+    {
+      "trait_type": "season",
+      "value": "winter"
+    }
+  ]
+}

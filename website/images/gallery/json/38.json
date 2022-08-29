@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #38",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/38.png",
+  "dna": "8711e5b895b3b79297d848b35e41bf55ed442ff1",
+  "edition": 38,
+  "date": 1658770818323,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "milky way"
+    },
+    {
+      "trait_type": "moon",
+      "value": "pandia"
+    },
+    {
+      "trait_type": "planet",
+      "value": "galileo"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "sulfur"
+    },
+    {
+      "trait_type": "season",
+      "value": "spring"
+    }
+  ]
+}

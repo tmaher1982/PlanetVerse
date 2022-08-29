@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #5",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/5.png",
+  "dna": "40522a83686a951594d54845dc43356f1563c726",
+  "edition": 5,
+  "date": 1658770804296,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "milky way"
+    },
+    {
+      "trait_type": "moon",
+      "value": "mneme"
+    },
+    {
+      "trait_type": "planet",
+      "value": "janssen"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "sulfur"
+    },
+    {
+      "trait_type": "season",
+      "value": "spring"
+    }
+  ]
+}

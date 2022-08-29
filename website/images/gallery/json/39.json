@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #39",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/39.png",
+  "dna": "3fb911d8e23525f9516ac7ade2c8327772b808b0",
+  "edition": 39,
+  "date": 1658770818723,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "triangulum"
+    },
+    {
+      "trait_type": "moon",
+      "value": "carpo_io"
+    },
+    {
+      "trait_type": "planet",
+      "value": "tedmor"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "none"
+    },
+    {
+      "trait_type": "season",
+      "value": "spring"
+    }
+  ]
+}

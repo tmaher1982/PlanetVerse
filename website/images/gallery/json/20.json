@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #20",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/20.png",
+  "dna": "43a65ad124b60a0d1c5600f0e4e5ed08d1a5cb70",
+  "edition": 20,
+  "date": 1658770810595,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "triangulum"
+    },
+    {
+      "trait_type": "moon",
+      "value": "locaste"
+    },
+    {
+      "trait_type": "planet",
+      "value": "brahe"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "nitrogene"
+    },
+    {
+      "trait_type": "season",
+      "value": "winter"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #13",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/13.png",
+  "dna": "0413c07ca29675f41fd4784310dcb2bc071a1d37",
+  "edition": 13,
+  "date": 1658770807629,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "triangulum"
+    },
+    {
+      "trait_type": "moon",
+      "value": "none"
+    },
+    {
+      "trait_type": "planet",
+      "value": "janssen"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "nitrogene"
+    },
+    {
+      "trait_type": "season",
+      "value": "spring"
+    }
+  ]
+}

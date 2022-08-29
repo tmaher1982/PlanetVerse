@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #17",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/17.png",
+  "dna": "63313634434a27a9e4c779024f5ab24439111f7c",
+  "edition": 17,
+  "date": 1658770809339,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "andromeda"
+    },
+    {
+      "trait_type": "moon",
+      "value": "none"
+    },
+    {
+      "trait_type": "planet",
+      "value": "galileo"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "none"
+    },
+    {
+      "trait_type": "season",
+      "value": "spring"
+    }
+  ]
+}

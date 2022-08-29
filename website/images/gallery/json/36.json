@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #36",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/36.png",
+  "dna": "9db738e6f21ad3cdc60ce43cca01c2694dcf294a",
+  "edition": 36,
+  "date": 1658770817453,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "milky way"
+    },
+    {
+      "trait_type": "moon",
+      "value": "ersa_elara"
+    },
+    {
+      "trait_type": "planet",
+      "value": "brahe"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "methane"
+    },
+    {
+      "trait_type": "season",
+      "value": "winter"
+    }
+  ]
+}

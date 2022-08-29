@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #16",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/16.png",
+  "dna": "207060d69c80482024471238dc5c95eceb2c85f3",
+  "edition": 16,
+  "date": 1658770808926,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "triangulum"
+    },
+    {
+      "trait_type": "moon",
+      "value": "pandia"
+    },
+    {
+      "trait_type": "planet",
+      "value": "vytis"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "oxygene"
+    },
+    {
+      "trait_type": "season",
+      "value": "spring"
+    }
+  ]
+}

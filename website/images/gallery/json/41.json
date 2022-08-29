@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #41",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/41.png",
+  "dna": "b84585ba0917ea63290f0f27fc46e2d080ebf9b1",
+  "edition": 41,
+  "date": 1658770819520,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "andromeda"
+    },
+    {
+      "trait_type": "moon",
+      "value": "none"
+    },
+    {
+      "trait_type": "planet",
+      "value": "finlay"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "methane"
+    },
+    {
+      "trait_type": "season",
+      "value": "spring"
+    }
+  ]
+}

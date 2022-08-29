@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #22",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/22.png",
+  "dna": "20aeac21b4ef3a5bd4e990ba23e1faf8dfdfc757",
+  "edition": 22,
+  "date": 1658770811448,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "andromeda"
+    },
+    {
+      "trait_type": "moon",
+      "value": "leda"
+    },
+    {
+      "trait_type": "planet",
+      "value": "kaew"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "oxygene"
+    },
+    {
+      "trait_type": "season",
+      "value": "winter"
+    }
+  ]
+}

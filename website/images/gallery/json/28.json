@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #28",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/28.png",
+  "dna": "3ea13df90fcac718d9d6f0ac111f213add48a312",
+  "edition": 28,
+  "date": 1658770813974,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "andromeda"
+    },
+    {
+      "trait_type": "moon",
+      "value": "none"
+    },
+    {
+      "trait_type": "planet",
+      "value": "dimidium"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "oxygene"
+    },
+    {
+      "trait_type": "season",
+      "value": "winter"
+    }
+  ]
+}

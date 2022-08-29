@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #8",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/8.png",
+  "dna": "ec642a4d4ef8211c6dc7f0c7d7250fe53a6f8b56",
+  "edition": 8,
+  "date": 1658770805486,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "triangulum"
+    },
+    {
+      "trait_type": "moon",
+      "value": "none"
+    },
+    {
+      "trait_type": "planet",
+      "value": "lete"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "none"
+    },
+    {
+      "trait_type": "season",
+      "value": "spring"
+    }
+  ]
+}

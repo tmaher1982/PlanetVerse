@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #47",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/47.png",
+  "dna": "82d5ec661bea19f48b1d3de77c55bf7126379fee",
+  "edition": 47,
+  "date": 1658770822107,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "andromeda"
+    },
+    {
+      "trait_type": "moon",
+      "value": "none"
+    },
+    {
+      "trait_type": "planet",
+      "value": "magor"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "sulfur"
+    },
+    {
+      "trait_type": "season",
+      "value": "winter"
+    }
+  ]
+}

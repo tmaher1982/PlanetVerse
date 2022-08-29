@@ -53,13 +53,13 @@
             </nav>
             <!-- .navbar -->
 
-            <div class="header-social-links">
+            <!--<div class="header-social-links">
                 <a href="#" class="bi bi-wallet metamask" onclick="connect();"> Metamask</a>
-                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-            </div>
+                <a href="#" class="twitter" target="_blank"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></i></a>
+            </div>-->
             <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
             <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
@@ -113,9 +113,13 @@
                                     <div class="portfolio-description">
                                         <h2>Here is the details regarding the NFT</h2>
                                         <p>
-                                            This is a planet with ...
+                                            This is a planet with:
                                         </p>
-                                        <p>
+                                        <p id="galaxy"></p>
+                                        <p id="moon"></p>
+                                        <p id="planet"></p>
+                                        <p id="atmosphere"></p>
+                                        <p id="season"></p>
 
 
                                     </div>
@@ -125,7 +129,14 @@
                                     <div class="portfolio-info">
                                         <h3>Image information</h3>
                                         <ul>
-                                            <li><strong>Category</strong> <span></span></li>
+                                            <li>
+                                                <strong>Name</strong> <span>
+                                                    <p id="imgName"></p>
+                                                </span>
+                                            </li>
+                                            <li><strong>Description</strong> <span>
+                                                 <p id="description"></p>
+                                                 </span></li>
                                             <li><strong>Project URL</strong> <a id="pinata-url" href="#">www.planetverse.com</a></li>
                                             <li><a href="#" class="btn-visit align-self-start">Visit Website</a></li>
                                         </ul>
@@ -140,7 +151,7 @@
 
             </div>
         </section>
-        <script>
+        <script type="module">
             let pinataURL = "https://gateway.pinata.cloud/ipfs/QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/";
             //Get the image ID value from the URL
             const params = new Proxy(new URLSearchParams(window.location.search), {
@@ -149,6 +160,33 @@
             let value = params.ID;
             document.getElementById("img-to-show").src = "./images/gallery/" + value + ".png";
             document.getElementById("pinata-url").href = pinataURL + value + ".png";
+
+            let dataString = "./images/gallery/json/" + value + ".json";
+
+
+            function readTextFile(file, callback) {
+                var rawFile = new XMLHttpRequest();
+                rawFile.overrideMimeType("application/json");
+                rawFile.open("GET", file, true);
+                rawFile.onreadystatechange = function () {
+                    if (rawFile.readyState === 4 && rawFile.status == "200") {
+                        callback(rawFile.responseText);
+                    }
+                }
+                rawFile.send(null);
+            }
+
+            //Parse data from JSON file about image.
+            readTextFile(dataString, function(text) {
+                var data = JSON.parse(text); //parse JSON
+                document.getElementById("galaxy").innerHTML = "Galaxy: " + data.attributes[0].value;
+                document.getElementById("moon").innerHTML = "Moon: " + data.attributes[1].value;
+                document.getElementById("planet").innerHTML = "Planet: " + data.attributes[2].value;
+                document.getElementById("atmosphere").innerHTML = "Atmosphere: " + data.attributes[3].value;
+                document.getElementById("season").innerHTML = "Season: " + data.attributes[4].value;
+                document.getElementById("description").innerHTML = data.description;
+                document.getElementById("imgName").innerHTML = data.name;
+                });
         </script>
 
     </main>
@@ -156,7 +194,13 @@
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
         <div class="container">
-
+            <div class="credits" hidden>
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/ -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
         </div>
     </footer>
     <!-- End Footer -->
@@ -177,7 +221,7 @@
     <script src="js/scripts.js"></script>
 
     <!-- Metamask libraries -->
-    <script type="module" src="./js/smart-contracts.js"></script>
+   <!-- <script type="module" src="./js/smart-contracts.js"></script>-->
 
 </body>
 

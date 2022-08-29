@@ -1,0 +1,30 @@
+{
+  "name": "Planetverse #33",
+  "description": "One planet to rule them all!",
+  "image": "ipfs://QmTBAnFHzSWTvR64uuAGbyHTReVunwpegi7oH2vM9X7CCs/33.png",
+  "dna": "2ec88a568f04442db6771a8c9f30722268b64088",
+  "edition": 33,
+  "date": 1658770816181,
+  "attributes": [
+    {
+      "trait_type": "galaxy",
+      "value": "triangulum"
+    },
+    {
+      "trait_type": "moon",
+      "value": "none"
+    },
+    {
+      "trait_type": "planet",
+      "value": "spe"
+    },
+    {
+      "trait_type": "atmosphere",
+      "value": "methane"
+    },
+    {
+      "trait_type": "season",
+      "value": "winter"
+    }
+  ]
+}
