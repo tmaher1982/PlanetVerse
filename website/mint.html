@@ -8,6 +8,9 @@
     <title>Welcome to Planetverse</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Favicons -->
     <link href="./images/favicon.ico" rel="icon">
@@ -28,6 +31,10 @@
 
     <!-- Template Main CSS File -->
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/minting.css" rel="stylesheet" >
+
+    <!-- minting-dapp scripts-->
+    <script src="js/minting.js"></script>
 
 </head>
 
@@ -44,17 +51,17 @@
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
 
-                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
             <!-- .navbar -->
 
             <!--<div class="header-social-links">
-                <a href="#" class="bi bi-wallet metamask" onclick="connect();" > Metamask</a>
+                <a href="#" class="bi bi-wallet metamask" onclick="connect();"> Metamask</a>
                 <a href="#" class="twitter" target="_blank"><i class="bi bi-twitter"></i></a>
                 <a href="#" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
                 <a href="#" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
@@ -64,11 +71,12 @@
             <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
         </div>
+
     </header>
     <!-- End Header -->
 
     <main id="main" data-aos="fade" data-aos-delay="1500">
-        
+
         <!-- ======= End Page Header ======= -->
         <div class="page-header d-flex align-items-center">
             <div class="container position-relative">
@@ -84,47 +92,7 @@
             </div>
         </div>
         <!-- End Page Header -->
-        <section id="services" class="services">
-            <div class="container">
 
-                <div class="row gy-4">
-
-                    <div class="col-xl-3 col-md-6 ">
-                        <div class="service-item position-relative">
-                            <i class="bi bi-activity"></i>
-                            <h4><a href="placeholder.html" class="stretched-link">Getting Started</a></h4>
-                            <p>Find out how to get started here.</p>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-xl-3 col-md-6 ">
-                        <div class="service-item position-relative">
-                            <i class="bi bi-bounding-box-circles"></i>
-                            <h4><a href="gallery.html" class="stretched-link">Gallery</a></h4>
-                            <p>Take a look at some of the available NFTs</p>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-xl-3 col-md-6 ">
-                        <div class="service-item position-relative">
-                            <i class="bi bi-calendar4-week"></i>
-                            <h4><a href="placeholder.html" class="stretched-link">What's on</a></h4>
-                            <p>See what's happening</p>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-xl-3 col-md-6 ">
-                        <div class="service-item position-relative">
-                            <i class="bi bi-broadcast"></i>
-                            <h4><a href="placeholder.html" class="stretched-link">Community</a></h4>
-                            <p>Get in touch with other PlanetVerse user's here</p>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                </div>
-
-            </div>
-        </section><!-- End Services Section -->
         <section class="page">
             <div class="container" data-aos="fade-up">
 
@@ -135,9 +103,12 @@
             </div>
         </section>
 
+        <!-- ======= minting-dapp Section ======= -->
+        <div id="minting-dapp"></div>
+
+                
     </main>
     <!-- End #main -->
-
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
         <div class="container">
@@ -148,7 +119,6 @@
                 <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/ -->
                 Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
             </div>
-        </div>
         </div>
     </footer>
     <!-- End Footer -->
@@ -170,6 +140,7 @@
 
     <!-- Metamask libraries -->
     <script type="module" src="./js/smart-contracts.js"></script>
+
 </body>
 
 </html>
