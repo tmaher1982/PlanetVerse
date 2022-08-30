@@ -41824,7 +41824,7 @@
                                     children: (0, t.jsx)(
                                       "img",
                                       {
-                                        src: "/build/images/preview.png",
+                                        src: "./images/preview.png",
                                         alt: "Collection preview",
                                       },
                                       void 0
